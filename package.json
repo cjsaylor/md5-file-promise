@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/cjsaylor/md5-file-promise"
   },
-  "homepage": "https://github.com/md5-file-promise",
+  "homepage": "https://github.com/cjsaylor/md5-file-promise",
   "dependencies": {
     "q": "^1.1.2"
   },
