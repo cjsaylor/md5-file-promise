@@ -30,7 +30,7 @@ var proto = {
 };
 
 module.exports = function(container) {
-    container = container || {node: null};
+    container = container || {node: {}};
     fs = container.node.fs || require('fs');
     return Object.create(proto);
 };
