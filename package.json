@@ -1,0 +1,33 @@
+{
+  "name": "md5-file-promise",
+  "version": "1.0.0",
+  "description": "Compute md5 hashes of files via streams that return promises.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjsaylor/md5-file-promise.git"
+  },
+  "keywords": [
+    "md5",
+    "file",
+    "promise",
+    "stream"
+  ],
+  "author": "Chris Saylor <cjsaylor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjsaylor/md5-file-promise"
+  },
+  "homepage": "https://github.com/md5-file-promise",
+  "dependencies": {
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.0.1"
+  }
+}
